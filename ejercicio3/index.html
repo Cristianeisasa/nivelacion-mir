@@ -2,10 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles.css">
     <title>Login</title>
 </head>
 <body>
-    
+    <div id="card">
+        <h1>Login</h1>
+        <form action="">
+            <div class="campoformulario">
+                <label for="email">Email:</label>
+                <br>
+                <input type="mail" id="mail" name="mail" class="campo"/>
+            </div>
+            
+            <br>
+
+            <div class="campoformulario">
+                <label for="password">Password:</label>
+                <br>
+                <input type="password" id="password" name="password" class="campo"/>    
+            </div>
+           
+            <br>
+
+            <div class="campoformulario">
+                <label>
+                    Género:
+                    <br>
+                    <select name="color">
+                      <option value="" disabled selected>Selecciona un género</option>
+                      <option value="hombre">Hombre</option>
+                      <option value="mujer">Mujer</option>
+                      <option value="otro">Otro</option>
+                    </select>
+                  </label>
+            </div>
+
+              <br>
+
+              <label><input type="checkbox" id="terminos" value="terminos">Acepto los términos</label>
+              
+              <br>
+
+              <button type="submit" id="botonenviar">Ingresar</button>
+
+        </form>
+    </div>
 </body>
 </html>
