@@ -1,6 +1,6 @@
 #card{
     background: rgb(189,9,183);
-    background: linear-gradient(90deg, rgba(189,9,183,1) 0%, rgba(107,76,245,1) 100%);
+background: linear-gradient(180deg, rgba(189,9,183,1) 0%, rgba(107,76,245,1) 100%);
     width: 300px;
     padding: 20px;
     margin: 0 auto;
@@ -34,8 +34,9 @@ button{
     padding: 5px 15px 5px 15px;
 }
 
-@media(min-width: 500px){
+@media(max-width: 500px){
     
+<<<<<<< HEAD
     #card :after{
         width: 100px;
         background-color: black;
@@ -43,5 +44,9 @@ button{
 
     body{
         background-color: black;
+=======
+    #card{
+        width: 100%;
+>>>>>>> ec3191cf110859692dfe246f0187e58df35310a6
     }
 }
